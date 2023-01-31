@@ -1,0 +1,71 @@
+/* Add screen styles below */
+* {
+    margin: 0;
+}
+body {
+    background-color: #e0fbfc;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    background-color: #98c1d9;
+    padding-top: 32px;
+    
+}
+
+h1 {
+    font-size: 48px;
+    margin-left: 32px;
+    flex: 1;
+}
+
+.home {
+    font-size: 32px;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.images {
+    margin-top: 20px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item {
+    width: 33.33%;
+    height: 33.33%;
+    margin-bottom: 20px;
+}
+
+.detail-wrapper {
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.big-image {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.click {
+    border: 5px solid green;
+}
+
+.detail {
+    background-color: rgb(247, 243, 21);
+    padding: 5px;
+    border-radius: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
